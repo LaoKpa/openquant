@@ -121,7 +121,7 @@ if __name__ == '__main__':
     actual = primary_forecast['actual']
     pred = primary_forecast['pred']
 
-    # Output Statements for analysi
+    # Output Statements for analysis
     print('Classification Report')
     print(sk.metrics.classification_report(y_true=actual, y_pred=pred, zero_division=False))
     print("Confusion Matrix")
