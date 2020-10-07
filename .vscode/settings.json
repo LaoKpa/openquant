@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\seanm\\scoop\\shims\\python.exe"
+    "python.pythonPath": "C:\\Users\\seanm\\scoop\\shims\\python.exe",
+    "python.dataScience.jupyterServerURI": "local"
 }
