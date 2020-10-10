@@ -72,3 +72,6 @@ data_signed_flow = data_timeidx.assign(bv = data_timeidx.tickDirection * data_ti
 abs_Ebv_init = np.abs(data_signed_flow['bv'].mean())
 E_T_init = 500000 # 500000 ticks to warm up
 Ts, abs_thetas, thresholds, i_s = hf.compute_Ts(data_signed_flow.bv, E_T_init, abs_Ebv_init)
+
+
+### THIS IS A WAY TO USE THE COMMAND LINE TO CREATE A NEW DATASET TRANSFORMED (TICK, DOLLAR, VOLUME)
