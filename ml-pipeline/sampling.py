@@ -122,3 +122,11 @@ sns.kdeplot(seq_unq_array, shade=True, label='Sequential Sampling')
 
 # Let's apply sequential bootstrapping to our full data set and draw 50 samples.
 bootstrapped_samples = seq_bootstrap(triple_barrier_ind_mat, compare=True, sample_length=50)
+print(bootstrapped_samples)
+
+
+### A BUNCH OF PLOTTING (PLOTLY) CODE
+plt.show()
+plt.axis()
+plt.y_label()
+plt.x_label()
