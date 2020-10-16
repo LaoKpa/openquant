@@ -97,9 +97,9 @@ print('-------------------------')
 
 # Set up dataframe
 data = pd.read_csv(csv_name)
-data = data.drop(
-    ['low', 'open', 'close', 'period_volume', 'number_trades'], axis=1)
-data.columns = ['date_time', 'price', 'total_volume']
+#data = data.drop(
+#    ['low', 'open', 'close', 'period_volume', 'number_trades'], axis=1)
+#data.columns = ['date_time', 'price', 'total_volume']
 
 # CREATING STANDARD BARS
 
