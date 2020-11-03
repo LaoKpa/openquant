@@ -1,3 +1,4 @@
+### This file contains functions for the purpose of calculating the RSI
 def relative_strength_index(df, n):
         """Calculate Relative Strength Index(RSI) for given data.
         https://github.com/Crypto-toolbox/pandas-technical-indicators/blob/master/technical_indicators.py
